@@ -24,7 +24,7 @@ public class FolderFetchIMAP {
             Session session = Session.getDefaultInstance(props, null);
 
             store = session.getStore("imaps");
-            store.connect("imap.googlemail.com","sdet.sleekr@gmail.com", "sleekrNumber1");
+            store.connect("imap.googlemail.com","xxx@gmail.com", "xxx");
 
             //folder = (IMAPFolder) store.getFolder("[Gmail]/Spam"); // This doesn't work for other email account
             folder = (IMAPFolder) store.getFolder("inbox"); //This works for both email account
